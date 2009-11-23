@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Markout Atom
+Bundle-SymbolicName: net.markout.atom
+Bundle-Version: 1.0.0
+Bundle-Vendor: David Fogel
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: freemarker.core;resolution:=optional,
+ freemarker.template;resolution:=optional,
+ net.markout,
+ net.markout.gen,
+ net.markout.support,
+ net.markout.types,
+ net.markout.xhtml
