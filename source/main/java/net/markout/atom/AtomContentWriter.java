@@ -10,7 +10,8 @@ package net.markout.atom;
 
 import java.io.IOException;
 
-import net.markout.*;
+//import net.markout.*;
+import net.markout.support.*;
 import net.markout.types.*;
 import net.markout.xhtml.HtmlContentWriter;
 
@@ -19,7 +20,7 @@ import net.markout.xhtml.HtmlContentWriter;
  * 
  * THIS IS A GENERATED FILE, DO NOT EDIT!
  */
-public interface AtomContentWriter extends ContentWriter {
+public interface AtomContentWriter extends EnhancedContentWriter {
 	// *** Class Members ***
 
 	// *** Public Methods ***
