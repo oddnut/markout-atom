@@ -61,6 +61,11 @@ public class Atom extends DocumentWriterFactory {
 	public static final Name XML_BASE = XML_NAMESPACE.name("base");
 	public static final Name XML_LANG = XML_NAMESPACE.name("lang");
 	
+	public static final Attribute REL_ALTERNATE = REL.att("alternate");
+	public static final Attribute REL_ENCLOSURE = REL.att("enclosure");
+	public static final Attribute REL_RELATED = REL.att("related");
+	public static final Attribute REL_SELF = REL.att("self");
+	public static final Attribute REL_VIA = REL.att("via");
 	public static final Attribute TYPE_HTML = TYPE.att("html");
 	public static final Attribute TYPE_TEXT = TYPE.att("text");
 	public static final Attribute TYPE_XHTML = TYPE.att("xhtml");

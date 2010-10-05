@@ -87,6 +87,11 @@ public class GenerateAtomFactory {
 		gen.addAttribute(ATOM.name("type").att("text"));
 		gen.addAttribute(ATOM.name("type").att("html"));
 		gen.addAttribute(ATOM.name("type").att("xhtml"));
+		gen.addAttribute(ATOM.name("rel").att("alternate"));
+		gen.addAttribute(ATOM.name("rel").att("enclosure"));
+		gen.addAttribute(ATOM.name("rel").att("related"));
+		gen.addAttribute(ATOM.name("rel").att("self"));
+		gen.addAttribute(ATOM.name("rel").att("via"));
 		
 		gen.addRoot(ATOM.name("feed"));
 		gen.addRoot(ATOM.name("entry"));
