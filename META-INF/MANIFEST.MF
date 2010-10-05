@@ -12,3 +12,5 @@ Import-Package: freemarker.core;resolution:=optional,
  net.markout.support,
  net.markout.types,
  net.markout.xhtml
+Export-Package: net.markout.atom,
+ net.markout.atom.app
