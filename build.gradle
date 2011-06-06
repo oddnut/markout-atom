@@ -1,0 +1,25 @@
+apply from: "../oddnut/repositories.gradle"
+apply from: "../oddnut/osgi.gradle"
+
+version = "1.0.0"
+
+dependencies {
+	compile ":org.freemarker:2.3.15",
+			":net.markout:1.0.0"
+}
+
+jar {
+	manifest {
+		setName			"Markout Atom"
+		symbolicName =	"net.markout.atom"
+		vendor =		"markout.net"
+		description =	"Markout API for Atom and AtomPub"
+		version =		project.version
+		
+		instruction "Import-Package", 
+					"freemarker.*;resolution:=optional", 
+					"*"
+		
+		instruction "Export-Package", "net.markout.atom.*;version=$version"
+	}
+}
